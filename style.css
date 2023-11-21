@@ -85,7 +85,7 @@ nav {
   grid-template-rows: auto repeat(3, 15rem) auto; /* Bu kod, grid'in satırlarının yüksekliklerini belirtir. auto ifadesi, otomatik olarak boyutlandırılan bir satırı temsil eder. repeat(3, 15rem) ifadesi, 15rem yüksekliğinde üç satırı temsil eder. Bu, bir önceki satırı tekrar ederek 3 adet 15rem yüksekliğinde satır oluşturur. auto ifadesi ise geri kalan boşluğu otomatik olarak doldurur.*/
   gap: 2rem;
 
-  /* opacity:0; */
+  opacity: 0;
   transition: all 1s;
 }
 
